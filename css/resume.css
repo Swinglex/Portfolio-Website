@@ -1,0 +1,30 @@
+#resume{
+    max-width: 40%;
+    max-height: 40%;
+    border: 30px solid #1e1852;
+
+}
+
+@media screen and (max-width: 700px) and (min-width: 500px){
+    #resume{
+        max-width: 60%;
+        max-height: 75%;
+    }
+}
+
+@media screen and (max-width: 500px) {
+    #resume{
+        max-width: 90%;
+        max-height: 95%;
+    }
+}
+
+#resumePicture{
+    display: flex;
+    justify-content: center;
+    background-color:#312a74;
+    padding: 20px;
+    border: 10px solid #1b173f;
+    
+}
+

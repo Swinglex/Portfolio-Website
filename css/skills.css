@@ -1,0 +1,12 @@
+ul {
+    text-align: center;
+    padding: 0;
+}
+#SkillList {
+    list-style: none;
+    
+}
+
+#SkillList li {
+    margin: 10px 0 10px 0; 
+}

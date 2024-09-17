@@ -1,0 +1,7 @@
+#clock{
+    width: fit-content;
+    color: rgb(255, 255, 255);
+    font-size: 30px;
+    background: linear-gradient(to left, #610061, #7F00FF);
+
+}

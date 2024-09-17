@@ -1,0 +1,48 @@
+footer p{
+    color: #fff;
+    display: flex;
+    margin-left: 10px;
+    margin-right: 10px;
+
+}
+
+footer img{
+    width: 45px;
+}
+
+footer{
+    display: flex;
+    justify-content: center;
+    margin: 1%;
+}
+
+/*Tablet Screens*/
+@media screen and (max-width: 1000px) and (min-width: 500px){
+    footer{
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center; 
+      }
+
+    footer img{
+        width: 5%;
+      
+    }
+
+}
+        
+
+/* Mobile Screens */
+@media screen and (max-width: 500px) {
+   
+    footer{
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center; 
+      }
+
+    footer img{
+        width: 12%;
+      
+    }
+}

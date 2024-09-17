@@ -1,0 +1,18 @@
+#greeting img{
+    width: 50%;
+    
+}
+
+@media screen and (max-width: 500px) {
+    #greeting img{
+        width: 80%;
+        
+    }
+}
+
+@media screen and (max-width: 1000px) and (min-width: 500px){
+    #greeting img{
+        width: 60%;
+        
+    }
+}
