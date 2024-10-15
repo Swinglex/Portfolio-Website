@@ -5,7 +5,9 @@
       {"skill": "Front-End"},
       {"skill": "C#"},
       {"skill": "SQL"},
-      {"skill": "Python"}
+      {"skill": "Python"},
+      {"skill": "Git"}
+
     ]
   }
   

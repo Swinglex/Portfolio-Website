@@ -1,7 +1,4 @@
-/* This css file was only meant for the actual header of the pages but it ended up managing almost the whole page lol*/
-
-
-/*Custom pixel font to match the theme of the website.*/
+/* Custom pixel font */
 @font-face {
     font-family: 'getPixeled'; 
     src: url('../fonts/PixeloidSans.ttf') format('woff2'); 
@@ -13,53 +10,85 @@ body {
     background-color: rgb(0, 0, 0);
     background-image: url(../images/background.jpg);
     background-size: cover;
-    border: 4px solid #1b173f;
+    background-position: center;
+    border: 4px solid #362d87;
     border-radius: 7px;
-    
 }
 
-h1{
+h1 {
     text-decoration: underline;
 }
 
-h2{
+h2 {
     font-size: 30px;
 }
 
-h3{
+h3 {
     font-size: 22px;
 }
 
-/*Tablet Screens*/
-@media screen and (max-width: 700px) and (min-width: 500px){
+/* Tablet Screens */
+@media screen and (max-width: 700px) and (min-width: 500px) {
     nav {
         display: flex;
         flex-wrap: wrap;
-        justify-content: center; 
+        justify-content: center;
         gap: 18px;
-     
-      }
+    }
 
-      img{
+    img {
         width: 100%;
         margin: 0%;
     }
+
+    h1 {
+        font-size: 28px;
+        padding: 30px;
+    }
+
+    h2 {
+        font-size: 24px;
+    }
+
+    nav a {
+        font-size: 18px;
+        padding: 8px;
+    }
 }
-        
 
 /* Mobile Screens */
 @media screen and (max-width: 500px) {
+
+    body {
+        margin: 0;
+        padding: 0;
+    }
 
     nav {
         display: flex;
         flex-wrap: wrap;
         justify-content: center; 
         gap: 15px;
-      }
-    
-    img{
+        padding: 10px; 
+    }
+
+    img {
         width: 100%;
         margin: 0%;
+    }
+
+    h1 {
+        font-size: 24px; 
+        padding: 20px;   
+    }
+
+    h2 {
+        font-size: 20px;
+    }
+
+    nav a {
+        font-size: 16px;  
+        padding: 5px;     
     }
 }
 
@@ -80,10 +109,14 @@ nav a {
 
 nav a:hover {
     background-color: #fff;
-    color: #29254e;
+    color: #ffffff;
     transform: scale(1.25); 
+    background-image: url(../images/aBackground.gif);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    transition: transform 0.3s ease; 
 }
-
 
 nav {
     margin: 0%; 
@@ -92,15 +125,13 @@ nav {
     flex-direction: row;
     text-align: center;
     background: linear-gradient(to right, #2c246b, #5041c4);
-   
 }
-
 
 header {
     height: fit-content;
-    background-image: url(../images/starry8bit.jpeg);
+    background-image: url(../images/starryBackground.gif);
     margin: 0%; 
-    padding: 0%; 
+    padding: 0%;
 }
 
 h1 {
@@ -112,10 +143,8 @@ h1 {
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
-    
 }
 
-div{
-    background-color:#1b173f;
+div {
+    background-color: #1b173f;
 }
-
