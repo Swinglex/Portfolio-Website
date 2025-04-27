@@ -1,1 +1,1 @@
-<h1>boo</h1>
+<h1 class="">boo</h1>
