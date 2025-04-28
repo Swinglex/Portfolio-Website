@@ -1,0 +1,5 @@
+name = "alexs-website"
+compatibility_date = "2025-04-28"
+
+[site]
+bucket = "./build"
