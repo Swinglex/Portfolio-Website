@@ -42,36 +42,33 @@
 
             <div class="text-center text-xl p-35">
                 <nav class="flex justify-center items-center space-x-4 mb-8">
-                <a href="/" class="text-lg font-semibold hover:underline">Home</a>
-                <a href="/about" class="text-lg font-semibold hover:underline">About</a>
-                <a href="/projects" class="text-lg font-semibold hover:underline">Projects</a>
-                <button
-                    on:click={toggleMode}
-                    class="px-4 py-1.5 rounded-2xl bg-yellow-400 text-black font-semibold hover:bg-yellow-300 transition-colors"
-                >
-                    {isLightMode ? 'Dark Mode' : 'Light Mode'}
-                </button>
+                    <a href="/" class="text-lg font-semibold hover:underline">Home</a>
+                    <a href="/about" class="text-lg font-semibold hover:underline">About</a>
+                    <a href="/projects" class="text-lg font-semibold hover:underline">Projects</a>
+                    <button
+                        on:click={toggleMode}
+                        class="px-4 py-1.5 rounded-2xl bg-yellow-400 text-black font-semibold hover:bg-yellow-300 transition-colors"
+                    >
+                        {isLightMode ? 'Dark Mode' : 'Light Mode'}
+                    </button>
                 </nav>
 
-            <h1 class="text-4xl font-bold">Hi I'm Alex!</h1>
-            <h2 class="text-2xl mt-2 text-yellow-400">Welcome to my website.</h2>
+                <h1 class="text-4xl font-bold">Hi I'm Alex!</h1>
+                <h2 class="text-2xl mt-2 text-yellow-400">Welcome to my website.</h2>
 
-            <!-- Arrow works, you just need to find out the coloring and animation. if you have time also see if you can figure out how to do an animantion -->
-            <svg 
-            xmlns="http://www.w3.org/2000/svg" 
-            class="w-8 h-8 text-black transition-transform duration-300"
-            fill="none" 
-            viewBox="0 0 24 24" 
-            stroke="currentColor" 
-            stroke-width="2"
-            >
-            <path stroke-linecap="round" stroke-linejoin="round" d="M19 9l-7 7-7-7" />
-            </svg>
-
-
-            <!--dont delete-->
+                <!--Arrow point down, work on disappearing the attribute when the user scrolls down later-->
+                 <svg 
+                    xmlns="http://www.w3.org/2000/svg" 
+                    class="m-auto mt-50 w-20 h-20 text-yellow-400 transition-transform animate-bounce"
+                    fill="none" 
+                    
+                    viewBox="0 0 24 24" 
+                    stroke="currentColor" 
+                    stroke-width="2"
+                    >
+                    <path stroke-linecap="round" stroke-linejoin="round" d="M19 9l-7 7-7-7" />
+                </svg>
             </div>
-
 
 
 
