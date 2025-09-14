@@ -1,4 +1,5 @@
 <script>
+    // @ts-ignore
     import { onMount } from "svelte";
 
     let isLightMode = false;
